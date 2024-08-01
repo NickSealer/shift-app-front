@@ -1,0 +1,11 @@
+.schedule {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+.confirmed {
+  margin: auto;
+  width: 100px;
+}

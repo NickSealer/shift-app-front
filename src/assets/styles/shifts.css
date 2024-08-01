@@ -1,0 +1,10 @@
+.hours-info {
+  position: fixed;
+  left: 0px;
+  bottom: 30px;
+  width: 160px;
+  border-radius: 0px 15px 15px 0px;
+  background-color: lightblue;
+  padding: 10px;
+  z-index: 1000;
+}
