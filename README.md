@@ -7,7 +7,7 @@
 - [Restricciones](#restricciones)
 
 ## Instrucciones
-Aplicación creada con React v18.3.3.
+Aplicación creada con React v18.3.3. Los seeds del backend crean 4 usuarios: 1 admin/supervisor y 3 users normales y 2 servicios por defecto, asociados todos entre sí. Ya se pueden usar cualquiera de ellos. Los user son para crear hojas de disponibilidad y confirmarlas, y el admin para organizar el cronograma y confirmarlo.
 
 ### Dependencias
 
@@ -86,8 +86,8 @@ Es una aplicación para el control de turnos de trabajo. En ella, el personal as
 - No se permiten cambios en las hojas de disponibilidad una vez confirmadas.
 - Creación automática de hojas de turno. El sistema es capaz de identificar el consecutivo de la semana y año, y asociar a ésta los usuarios implicados que deben registrar su disponibilidad para esa semana y servicio.
 - Para confirmar una hoja de turnos, el admin/supervisor puede elegir quienes estarán en según qué día y hora presentes, ya sea turno en solitario o compartido.
-- El sistema le indica al admin/supervisor las horas requeridas por el servicio y las horas disponibles por los usuarios, de ese modo puede ver si hacen falta o se excede, y cumplir con las horas solicitadas.
+- El sistema le indica al admin/supervisor las horas requeridas por el servicio y las horas disponibles por los usuarios, en la vista de confirmar turno, de ese modo puede ver si hacen falta o se excede, y cumplir con las horas solicitadas.
 - No se permite la creación de hojas de turnos donde las horas no coincidan con las requeridas por el servicio, tienen que ser iguales.
 - No se permite la creación de hojas de turnos si todos los usuario asignados a él no han cargado sus hojas de disponibilidad.
 - No se permite la eliminación de hojas de turno una vez confirmadas.
-- No se permite crear más hojas de turnos cuando éstas son un total de 10 sin confirmar.
+- No se permite crear más hojas de turnos, cuando estas son un total de 10 sin confirmar.
