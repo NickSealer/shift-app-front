@@ -175,7 +175,7 @@ export const ConfirmForm = ({ user, service, shift, response }) => {
                                           type='checkbox'
                                           id={`${availability.id}-${key}`}
                                           name={`${availability.id}-${key}`}
-                                          checked={result}
+                                          checked={!!result}
                                           onChange={() => handleCheckboxChange(availability.id, day, hour)}
                                         />
                                       </label>
