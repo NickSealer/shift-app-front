@@ -20,9 +20,8 @@ Clonar el repositorio y ejecutar los siguientes comandos:
 npm install
 npm run dev
 ```
-
 Users:
-```css
+```
 <!-- Usuarios estándar-->
 email: ernesto@email.com
 password: Password123?
@@ -91,4 +90,4 @@ Es una aplicación para el control de turnos de trabajo. En ella, el personal as
 - No se permite la creación de hojas de turnos donde las horas no coincidan con las requeridas por el servicio, tienen que ser iguales.
 - No se permite la creación de hojas de turnos si todos los usuario asignados a él no han cargado sus hojas de disponibilidad.
 - No se permite la eliminación de hojas de turno una vez confirmadas.
-- No se permite crear más hojas de turnos, cuando estas son un total de 10 sin confirmar.
+- No se permite crear más hojas de turnos cuando éstas son un total de 10 sin confirmar.
